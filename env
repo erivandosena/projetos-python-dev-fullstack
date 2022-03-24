@@ -1,0 +1,10 @@
+LDAP_SERVER=<HOST_LDAP_SERVER>
+LDAP_PORT=389
+LDAP_SSL=False
+LDAP_USER_CN="cn=leitor-admemail,dc=empresa,dc=com,dc=br"
+LDAP_USER_PASSWORD=FSs$Z9k/
+LDAP_BASE_DC="dc=empresa,dc=com,dc=br"
+LDAP_BASE_DN="ou=people,%s"
+LDAP_AUTO_BIND=True
+LDAP_CHECK_NAMES=True
+LDAP_RAISE_EXCEPTIONS=False
